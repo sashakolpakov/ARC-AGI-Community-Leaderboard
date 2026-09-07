@@ -115,6 +115,25 @@ retained boundary records its own provenance.
 - Games replayed: **25/25**
 - Proposer tokens used during scoring: **0**
 
+## Acquisition-compute estimate
+
+The acquisition campaign did not have uniform billable-token accounting, so
+this is an API-equivalent estimate rather than an invoice. It extrapolates the
+available campaign telemetry to **6–8 billion raw tokens across 25 games** and
+uses the recorded input/cache/output mix with
+[GPT-5.6-sol list prices](https://developers.openai.com/api/docs/models/gpt-5.6-sol)
+as a uniform accounting proxy.
+
+- Average: **240–320 million tokens/game**
+- Midpoint: **~280 million tokens/game**
+- API-equivalent cost: **$134–$179/game**, midpoint **~$157/game**
+- Corresponding 25-game acquisition cost: **$3,350–$4,475**, midpoint
+  **~$3,925**
+
+The `cost` field in `submission.yaml` reports that midpoint acquisition
+estimate. This cost achieved the reported score; the official Competition
+replay itself used zero proposer/model tokens.
+
 | Game | Verified depth | Stored path actions |
 |---|---:|---:|
 | `ar25` | 8/8 | 269 |

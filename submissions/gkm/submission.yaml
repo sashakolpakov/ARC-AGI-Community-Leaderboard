@@ -42,3 +42,4 @@ versions:
       - benchmark: "arc-agi-3"
         scorecard_url: "https://arcprize.org/scorecards/cf75e14b-2c25-41cb-bc70-53bd57411edb"
         set: "public"
+        cost: 3925.00 # estimated midpoint: 25 games at ~$157/game API-equivalent
